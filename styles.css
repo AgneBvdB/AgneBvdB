@@ -1,43 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #0a0a23;
+    background-color: pink;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(54, 0, 54);
 }
 
-#text {
-    background-color: #0a0a23;
-    color: #ffffff;
-    padding: 10px;
+h1 {
+    font-size: 3.5em;
 }
 
-#game {
-    max-width: 500px;
-    max-height: 400px;
-    background-color: #ffffff;
-    color: #ffffff;
-    margin: 30px auto 0px auto;
-    padding: 10px;
-}
-#controls, #stats {
-    border: 1px solid #0a0a23;
-    color: #0a0a23;
-    padding: 5px;
+.container {
+    margin-top: 5%;
 }
 
-#monsterStats {
-    border: 1px solid #0a0a23;
-    padding: 5px;
-    color: #ffffff;
-    background-color: #c70d0d;
+.countdown-container {
+    border: 2px solid palevioletred;
+    background-color: palevioletred;
+    border-radius: 12px;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 3em;
+    height: fit-content;
+}
+
+.hidden {
     display: none;
 }
 
-.stat {
-    padding-right: 10px;
-}
-
-#button1, #button2, #button3 {
-    cursor: pointer;
-    color: #0a0a23;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
-}
