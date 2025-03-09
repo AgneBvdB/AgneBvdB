@@ -18,8 +18,8 @@ h1 {
 }
 
 .countdown-container {
-    border: 2px solid palevioletred;
-    background-color: palevioletred;
+    border: 2px solid #d87093;
+    background-color: #d87093;
     border-radius: 12px;
     width: 80%;
     margin: 10px auto;
