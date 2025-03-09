@@ -1,6 +1,5 @@
 const countDate = new Date("Aug 9, 2025 00:01:00").getTime();
 let counter = document.getElementById("counter");
-/* let btn = document.getElementById("user-btn"); */
 
 const intervalCounter = setInterval(function() {
   let currentDate = new Date();
@@ -13,8 +12,8 @@ const intervalCounter = setInterval(function() {
   
   counter.innerText = `${days} DIENOS ${hours} VALANDOS ${minutes} MINUTĖS`;
 
-/*   if(distance < 0){
+   if(distance < 0){
     clearInterval(intervalCounter);
     counter.innerText = "Finished!";
-  } */
+  } 
 }, 1000);
